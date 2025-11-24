@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+htmlcov/
+.tox/
+.nox/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data / outputs
+full_automl_output/
+auto_pipeline_outputs_no_shap/
+auto_train_outputs/
+*.sqlite3
+*.db
+
+# Secrets / env
+.env
+.env.*
+secrets.json
+
+# Mac
+.DS_Store
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Joblib / models
+*.joblib
+*.pkl
+*.pickle
+
+# Coverage
+.coverage
+htmlcov/
