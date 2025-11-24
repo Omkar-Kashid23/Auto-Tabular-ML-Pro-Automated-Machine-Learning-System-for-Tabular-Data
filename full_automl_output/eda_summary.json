@@ -1,0 +1,17 @@
+{
+  "shape": [
+    500,
+    7
+  ],
+  "columns": [
+    "age",
+    "income",
+    "gender",
+    "city",
+    "credit_score",
+    "loan_amount",
+    "default"
+  ],
+  "target": "default",
+  "missing_total": 0
+}
