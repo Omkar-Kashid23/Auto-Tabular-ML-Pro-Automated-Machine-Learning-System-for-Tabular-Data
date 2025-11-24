@@ -52,7 +52,7 @@ from xgboost import XGBClassifier, XGBRegressor
 #######################################################################
 
 RANDOM_STATE = 42
-DATA_PATH = Path(r"C:\Users\okash\Desktop\data_science\abc\auto_ml_sample_dataset.csv")   #give here path
+DATA_PATH = Path(r" ")   #give here path of the dataset
 OUTPUT_DIR = Path("full_automl_output")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -349,3 +349,4 @@ if __name__ == "__main__":
     final_training(tuned_model, X, y)
 
     print("ALL STAGES EXECUTED SUCCESSFULLY!")
+
