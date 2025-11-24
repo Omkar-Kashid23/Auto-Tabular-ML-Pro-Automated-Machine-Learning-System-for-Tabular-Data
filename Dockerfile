@@ -28,3 +28,6 @@ COPY . /app
 
 # Default command: run the pipeline script
 CMD ["python", "auto_ml.py"]
+
+docker build -t auto-tabular-ml-pro .
+docker run --rm -v "$(pwd)/full_automl_output:/app/full_automl_output" auto-tabular-ml-pro
